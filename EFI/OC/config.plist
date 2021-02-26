@@ -6,10 +6,6 @@
 	<string>v0.6.6 DEV</string>
 	<key>#Build Date</key>
 	<string>2-2-2021</string>
-	<key>#Maker by</key>
-	<string>爱玩黑果的小姐姐</string>
-	<key>#Posted on</key>
-	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -127,7 +123,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>EjRWeA==</data>
+				<data>AACbPg==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
@@ -928,19 +924,17 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C07YDCYJJYVX</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
-			<key>ROM</key>
-			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac18,3</string>
+			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C07910700CDKXPGUE</string>
 			<key>SystemUUID</key>
 			<string></string>
 		</dict>
