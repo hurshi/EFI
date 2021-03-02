@@ -16,20 +16,21 @@
 
 * 显卡始终加载得有问题
 
-  > 看看设备名称，非独显不要用 iMac，而是 MacMini
+  > 看看设备名称，非独显不要用 iMac，而是 Macmini8,1
 
 * Bios 进入 F1 安全模式
 
   > 修改 RTC: [RTC综述 @xjn](https://blog.xjn819.com/post/rtc-issues-related-to-oc.html)
 
-* 蓝牙始终加载不出来（Bluetooth Core Spec: Unknown）
+* 蓝牙始终加载不出来：bluetooth core spec Unknown (0xA)
 
-  > 1. 确认在 config 中注入了蓝牙驱动
+  > 1. 确认在 config 中注入了蓝牙驱动：IntelBluetoothInjector.kext，IntelBluetoothFirmware.kext
   >
-  > 2. 关闭主板上的 Wi-Fi / 蓝牙
+  > 2. 关闭主板上的 Wi-Fi / 蓝牙（花了好长时间，才想到是这个问题）
 
 ### 优秀的文章：
 
 1. [使用 OpenCore 引导黑苹果 @xjn](https://blog.xjn819.com/post/opencore-guide.html)
 2. [RTC综述 @xjn](https://blog.xjn819.com/post/rtc-issues-related-to-oc.html)
 3. [精解OpenCore @黑果小兵](https://blog.daliansky.net/OpenCore-BootLoader.html)
+4. [MacOS Big Sur 11.2.1 20D75 Installer for OpenCore 0.6.6 and CLOVER 5129 and PE三EFI分区原版镜像 @黑果小兵](https://blog.daliansky.net/macOS-BigSur-11.2.1-20D75-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html)
